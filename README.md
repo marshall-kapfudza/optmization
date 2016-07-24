@@ -1,5 +1,8 @@
 ## Website Performance Optimization portfolio project
 My approatch to archive ```93/100``` on desktop and ```95/100``` on mobile
+### How to run
+To get started, download the entire directory, and open it in a browser locally. You can also open the directory using terminal and and run the following command if you are using a mac `python -m SimpleHTTPServer 8080` then open your browser and type in `http://0.0.0.0:8080 ` or `http://localhost:8080`
+
 #### Part 1: Optimize PageSpeed Insights score for index.html
 
 ##### _CSS_ _files_

@@ -549,7 +549,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var cols = 8;
   var s = 256;
   var movingPizzas = document.querySelector("#movingPizzas1");
-  for (var i = 0; i < 200; i++) {
+  // The number of background pizzas is reduced to at least 24
+  for (var i = 0; i < 24; i++) {
     var elem = document.createElement("img");
     elem.className = "mover";
     elem.src = "images/pizza.png";
